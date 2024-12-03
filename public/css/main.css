@@ -367,7 +367,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #31d79b;
+		color: #d4b724;
 	}
 
 	strong, b {
@@ -392,8 +392,8 @@ input, select, textarea {
 	}
 
 	header.major h1:after, header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
-		background-color: #31d79b;
-		background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(49, 215, 155, 0), #4b76eb 90%);
+		background-color: #d4b724;
+		background-image: url("../../images/overlay.png"), linear-gradient(90deg,  rgba(215, 198, 49, 0), #6b4c05 90%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 	}
@@ -1994,8 +1994,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px #31d79b;
-			color: #31d79b !important;
+			box-shadow: inset 0 0 0 1px #d4b724;
+			color: #d4b724 !important;
 		}
 
 			input[type="submit"]:hover:active,
@@ -2003,7 +2003,7 @@ input, select, textarea {
 			input[type="button"]:hover:active,
 			button:hover:active,
 			.button:hover:active {
-				background-color: rgba(49, 215, 155, 0.25);
+				background-color: rgba(215, 198, 49, 0.25);
 			}
 
 		input[type="submit"].primary,
@@ -2011,8 +2011,8 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #31d79b;
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(49, 215, 155, 0), #4b76eb 80%);
+			background-color: #d4b724;
+			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #9f7208 80%);
 			background-size: auto, auto;
 			background-repeat: repeat, no-repeat;
 			box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
@@ -2024,7 +2024,8 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #53deac;
+				background-color: #9f7208;
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #d4b724 );
 			}
 
 				input[type="submit"].primary:hover:active,
@@ -2032,7 +2033,8 @@ input, select, textarea {
 				input[type="button"].primary:hover:active,
 				button.primary:hover:active,
 				.button.primary:hover:active {
-					background-color: #2ab583;
+					background-color: #9f7208;
+					background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #d4b724 );
 				}
 
 /* Form */
@@ -2221,8 +2223,8 @@ input, select, textarea {
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #31d79b;
-			box-shadow: 0 0 0 1px #31d79b;
+			border-color: #d4b724;
+			box-shadow: 0 0 0 1px #d4b724;
 		}
 
 	select {
@@ -2246,18 +2248,18 @@ input, select, textarea {
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #31d79b;
-		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(49, 215, 155, 0), #4b76eb 80%);
+		background-color: #d4b724;
+		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #9f7208 80%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
-		border-color: #31d79b;
+		border-color: #d4b724;
 		color: #ffffff;
 	}
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #31d79b;
-		box-shadow: 0 0 0 1px #31d79b;
+		border-color: #d4b724;
+		box-shadow: 0 0 0 1px #d4b724;
 	}
 
 	::-webkit-input-placeholder {
@@ -2759,8 +2761,8 @@ input, select, textarea {
 		.wrapper.style2 {
 			background-color: #3a3a3a;
 			color: #ffffff;
-			background-color: #31d79b;
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(49, 215, 155, 0), #4b76eb 80%);
+			background-color: #d4b724;
+			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #9f7208 80%);
 			background-size: auto, auto;
 			background-repeat: repeat, no-repeat;
 		}
@@ -2833,8 +2835,8 @@ input, select, textarea {
 				.wrapper.style2 input[type="button"].primary,
 				.wrapper.style2 button.primary,
 				.wrapper.style2 .button.primary {
-					background-color: #31d79b;
-					background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(49, 215, 155, 0), #4b76eb 80%);
+					background-color: #d4b724;
+					background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #9f7208 80%);
 					background-size: auto, auto;
 					background-repeat: repeat, no-repeat;
 					box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
@@ -2846,7 +2848,8 @@ input, select, textarea {
 					.wrapper.style2 input[type="button"].primary:hover,
 					.wrapper.style2 button.primary:hover,
 					.wrapper.style2 .button.primary:hover {
-						background-color: #53deac;
+						background-color: #9f7208;
+						background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #d4b724 );
 					}
 
 						.wrapper.style2 input[type="submit"].primary:hover:active,
@@ -2854,7 +2857,8 @@ input, select, textarea {
 						.wrapper.style2 input[type="button"].primary:hover:active,
 						.wrapper.style2 button.primary:hover:active,
 						.wrapper.style2 .button.primary:hover:active {
-							background-color: #2ab583;
+							background-color: #9f7208;
+							background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #d4b724 );
 						}
 
 			.wrapper.style2 label {
@@ -2907,7 +2911,7 @@ input, select, textarea {
 			.wrapper.style2 input[type="radio"]:checked + label:before {
 				background-color: #ffffff;
 				border-color: #ffffff;
-				color: #31d79b;
+				color: #d4b724;
 			}
 
 			.wrapper.style2 input[type="checkbox"]:focus + label:before,
@@ -3399,7 +3403,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		background-attachment: fixed, fixed;
-		background-image: linear-gradient(90deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../../images/jalalHeadshotSide.jpg");
+		background-image: linear-gradient(90deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../../images/mainPic.jpg");
 		background-position: center, center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -3439,8 +3443,8 @@ input, select, textarea {
 			#banner input[type="button"].primary,
 			#banner button.primary,
 			#banner .button.primary {
-				background-color: #31d79b;
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(49, 215, 155, 0), #4b76eb 80%);
+				background-color: #d4b724;
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #9f7208 80%);
 				background-size: auto, auto;
 				background-repeat: repeat, no-repeat;
 				box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
@@ -3452,7 +3456,8 @@ input, select, textarea {
 				#banner input[type="button"].primary:hover,
 				#banner button.primary:hover,
 				#banner .button.primary:hover {
-					background-color: #53deac;
+					background-color: #9f7208;
+					background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #d4b724 );
 				}
 
 					#banner input[type="submit"].primary:hover:active,
@@ -3460,7 +3465,8 @@ input, select, textarea {
 					#banner input[type="button"].primary:hover:active,
 					#banner button.primary:hover:active,
 					#banner .button.primary:hover:active {
-						background-color: #2ab583;
+						background-color: #9f7208;
+						background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #d4b724 );
 					}
 
 		#banner input, #banner select, #banner textarea {
@@ -3683,8 +3689,8 @@ input, select, textarea {
 	#header {
 		background-color: #3a3a3a;
 		color: #ffffff;
-		background-color: #31d79b;
-		background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(49, 215, 155, 0), #4b76eb 90%);
+		background-color: #d4b724;
+		background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(215, 198, 49, 0), #9f7208 90%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 		-moz-align-items: center;
@@ -3779,8 +3785,8 @@ input, select, textarea {
 		}
 
 			#header.alt:before {
-				background-color: #31d79b;
-				background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(49, 215, 155, 0), #4b76eb 90%);
+				background-color: #d4b724;
+				background-image: url("../../images/overlay.png"), linear-gradient(90deg,  rgba(215, 198, 49, 0), #6b4c05 90%);
 				background-size: auto, auto;
 				background-repeat: repeat, no-repeat;
 				content: '';
@@ -3987,7 +3993,7 @@ input, select, textarea {
 				}
 
 				.dropotron li.active > a {
-					color: #31d79b;
+					color: #9f7208;
 				}
 
 			.dropotron a {
@@ -3999,7 +4005,7 @@ input, select, textarea {
 			}
 
 				.dropotron a:active, .dropotron a:hover, .dropotron a:focus {
-					color: #31d79b;
+					color: #9f7208;
 				}
 
 			body.header-alt .dropotron.level-0 {
@@ -4029,8 +4035,8 @@ input, select, textarea {
 		color: #ffffff;
 		padding-top: 14.75rem;
 		padding: 8rem 0 6rem 0 ;
-		background-attachment: fixed, fixed;
-		background-image: linear-gradient(90deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../../images/banner.jpg");
+		background-attachment: scroll, scroll;
+		background-image: linear-gradient(90deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6));
 		background-position: center, center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -4156,8 +4162,8 @@ input, select, textarea {
 	}
 
 	#navPanel {
-		background-color: #31d79b;
-		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(49, 215, 155, 0), #4b76eb 80%);
+		background-color: #d4b724;
+		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #6b4c05 80%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 		-moz-transform: translateX(20rem);
