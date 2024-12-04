@@ -3103,7 +3103,7 @@ input, select, textarea {
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
-			margin-top: -3rem;
+			margin-top: 1rem;
 		}
 
 			.spotlights section .image {
@@ -3125,6 +3125,7 @@ input, select, textarea {
 					border-radius: 100%;
 					display: block;
 					width: 100%;
+					
 				}
 
 			.spotlights section .content {
@@ -4306,4 +4307,10 @@ input, select, textarea {
 		transform: translateX(0);
 		box-shadow: 0 0 6rem 0 rgba(0, 0, 0, 0.125);
 		visibility: visible;
+	}
+
+	.twitter-x {
+		background-image: url('/images/x-twitter.svg');
+		background-repeat: no-repeat;
+		background-position: center;
 	}
