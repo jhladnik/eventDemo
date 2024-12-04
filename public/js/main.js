@@ -92,3 +92,82 @@
 			}
 
 })(jQuery);
+
+
+// Ticket addition
+
+document.addEventListener("DOMContentLoaded", () => {
+    const ticketQuantity = document.getElementById("ticketQuantity");
+    const subtotalElement = document.getElementById("subtotal");
+
+    // Ticket price
+    const ticketPrice = 200;
+
+    // Update subtotal whenever quantity changes
+    ticketQuantity.addEventListener("change", () => {
+        const quantity = parseInt(ticketQuantity.value, 10);
+        const subtotal = ticketPrice * quantity;
+        subtotalElement.textContent = `$${subtotal}`;
+    });
+});
+
+
+// Payment modal
+
+document.addEventListener("DOMContentLoaded", () => {
+    const checkoutButton = document.getElementById("checkoutButton");
+    const modal = document.getElementById("checkoutModal");
+    const closeButton = modal.querySelector(".close");
+    const modalDetails = document.getElementById("modalDetails");
+
+    const ticketQuantity = document.getElementById("ticketQuantity");
+    const subtotalElement = document.getElementById("subtotal");
+
+    // Open modal and populate details
+    checkoutButton.addEventListener("click", (event) => {
+        event.preventDefault();
+
+        const quantity = parseInt(ticketQuantity.value, 10);
+
+        if (quantity === 0) {
+            // Alert and highlight the dropdown if no tickets are added
+            alert("I think you may have forgotten to add something. Please add your ticket quantity to proceed.");
+			// Focus on the dropdown
+            ticketQuantity.focus();
+			// Highlight the dropdown
+            ticketQuantity.style.border = "2px solid red";
+
+			// Stop further execution
+            return;
+        }
+		
+        const subtotal = subtotalElement.textContent;
+
+        modalDetails.textContent = `You are purchasing ${quantity} ticket(s) for a total of ${subtotal}.`;
+		// Show modal
+        modal.style.display = "flex";
+    });
+
+    // Close modal
+    closeButton.addEventListener("click", () => {
+		// Hide modal
+        modal.style.display = "none";
+    });
+
+    // Close modal when clicking outside the modal content
+    window.addEventListener("click", (event) => {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+
+    // Handle payment form submission
+    const paymentForm = document.getElementById("paymentForm");
+    paymentForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+		
+        alert("Payment submitted successfully!");
+		// Hide modal after submission
+        modal.style.display = "none";
+    });
+});

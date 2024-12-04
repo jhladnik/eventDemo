@@ -393,7 +393,7 @@ input, select, textarea {
 
 	header.major h1:after, header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
 		background-color: #d4b724;
-		background-image: url("../../images/overlay.png"), linear-gradient(90deg,  rgba(215, 198, 49, 0), #6b4c05 90%);
+		background-image: url("../images/overlay.png"), linear-gradient(90deg,  rgba(215, 198, 49, 0), #6b4c05 90%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 	}
@@ -2764,7 +2764,7 @@ input, select, textarea {
 			background-color: #3a3a3a;
 			color: #ffffff;
 			background-color: #d4b724;
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #9f7208 80%);
+			background-image: url("../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #9f7208 80%);
 			background-size: auto, auto;
 			background-repeat: repeat, no-repeat;
 		}
@@ -2838,7 +2838,7 @@ input, select, textarea {
 				.wrapper.style2 button.primary,
 				.wrapper.style2 .button.primary {
 					background-color: #d4b724;
-					background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #9f7208 80%);
+					background-image: url("../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #9f7208 80%);
 					background-size: auto, auto;
 					background-repeat: repeat, no-repeat;
 					box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
@@ -2851,7 +2851,7 @@ input, select, textarea {
 					.wrapper.style2 button.primary:hover,
 					.wrapper.style2 .button.primary:hover {
 						background-color: #9f7208;
-						background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #d4b724 );
+						background-image: url("../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #d4b724 );
 					}
 
 						.wrapper.style2 input[type="submit"].primary:hover:active,
@@ -2860,7 +2860,7 @@ input, select, textarea {
 						.wrapper.style2 button.primary:hover:active,
 						.wrapper.style2 .button.primary:hover:active {
 							background-color: #9f7208;
-							background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #d4b724 );
+							background-image: url("../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #d4b724 );
 						}
 
 			.wrapper.style2 label {
@@ -3447,7 +3447,7 @@ input, select, textarea {
 			#banner button.primary,
 			#banner .button.primary {
 				background-color: #d4b724;
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #9f7208 80%);
+				background-image: url("../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #9f7208 80%);
 				background-size: auto, auto;
 				background-repeat: repeat, no-repeat;
 				box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
@@ -3460,7 +3460,7 @@ input, select, textarea {
 				#banner button.primary:hover,
 				#banner .button.primary:hover {
 					background-color: #9f7208;
-					background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #d4b724 );
+					background-image: url("../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #d4b724 );
 				}
 
 					#banner input[type="submit"].primary:hover:active,
@@ -3469,7 +3469,7 @@ input, select, textarea {
 					#banner button.primary:hover:active,
 					#banner .button.primary:hover:active {
 						background-color: #9f7208;
-						background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #d4b724 );
+						background-image: url("../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #d4b724 );
 					}
 
 		#banner input, #banner select, #banner textarea {
@@ -3693,7 +3693,7 @@ input, select, textarea {
 		background-color: #3a3a3a;
 		color: #ffffff;
 		background-color: #d4b724;
-		background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(215, 198, 49, 0), #9f7208 90%);
+		background-image: url("../images/overlay.png"), linear-gradient(90deg, rgba(215, 198, 49, 0), #9f7208 90%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 		-moz-align-items: center;
@@ -3789,7 +3789,7 @@ input, select, textarea {
 
 			#header.alt:before {
 				background-color: #d4b724;
-				background-image: url("../../images/overlay.png"), linear-gradient(90deg,  rgba(215, 198, 49, 0), #6b4c05 90%);
+				background-image: url("../images/overlay.png"), linear-gradient(90deg,  rgba(215, 198, 49, 0), #6b4c05 90%);
 				background-size: auto, auto;
 				background-repeat: repeat, no-repeat;
 				content: '';
@@ -4166,7 +4166,7 @@ input, select, textarea {
 
 	#navPanel {
 		background-color: #d4b724;
-		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #6b4c05 80%);
+		background-image: url("../images/overlay.png"), linear-gradient(45deg, rgba(215, 198, 49, 0), #6b4c05 80%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 		-moz-transform: translateX(20rem);
@@ -4309,4 +4309,87 @@ input, select, textarea {
 		transform: translateX(0);
 		box-shadow: 0 0 6rem 0 rgba(0, 0, 0, 0.125);
 		visibility: visible;
+	}
+
+
+		.shopping:before {
+			content: "\f291";
+			font-family: "Font Awesome 5 Free";
+			font-weight: 400;
+			display: inline-block;
+			color: #FFFFFF;
+			
+		}
+
+
+/* Ticket page */
+
+	#tickets .ticket-line {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 0;
+		border-bottom: 1px solid #ddd;
+	}
+
+	#tickets .subtotal-line,
+	#tickets .checkout-line {
+		margin-top: 15px;
+		font-size: 1.25rem;
+	}
+
+
+/* Modal styling */
+	.modal {
+		display: none;
+		position: fixed;
+		z-index: 1000;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+		justify-content: center;
+		align-items: center;
+	}
+
+	.modal-content {
+		background-color: #fff;
+		margin: auto;
+		padding: 20px;
+		border-radius: 10px;
+		width: 90%;
+		height: 65%;
+		max-width: 500px;
+		position: relative;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+		overflow: scroll;
+		
+	}
+
+	.modal-content h2 {
+		margin-top: 0;
+		font-size: 1.5rem;
+		text-align: center;
+	}
+
+	.modal-content p {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.modal-content .close {
+		position: absolute;
+		top: 10px;
+		right: 15px;
+		color: #333;
+		font-size: 1.5rem;
+		cursor: pointer;
+	}
+
+	.subPayment {
+		padding-top: 1rem;
+		display: flex;
+		justify-content: center;
 	}
