@@ -122,6 +122,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const ticketQuantity = document.getElementById("ticketQuantity");
     const subtotalElement = document.getElementById("subtotal");
+	// Reference to the body for disabling scroll
+	const body = document.body;
 
     // Open modal and populate details
     checkoutButton.addEventListener("click", (event) => {
@@ -146,18 +148,24 @@ document.addEventListener("DOMContentLoaded", () => {
         modalDetails.textContent = `You are purchasing ${quantity} ticket(s) for a total of ${subtotal}.`;
 		// Show modal
         modal.style.display = "flex";
+		// Disable scrolling
+		body.classList.add("no-scroll");
     });
 
     // Close modal
     closeButton.addEventListener("click", () => {
 		// Hide modal
         modal.style.display = "none";
+		// Enable scrolling
+		body.classList.remove("no-scroll");
     });
 
     // Close modal when clicking outside the modal content
     window.addEventListener("click", (event) => {
         if (event.target === modal) {
             modal.style.display = "none";
+			// Enable scrolling
+			body.classList.remove("no-scroll");
         }
     });
 
@@ -169,5 +177,7 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("Payment submitted successfully!");
 		// Hide modal after submission
         modal.style.display = "none";
+		// Enable scrolling
+		body.classList.remove("no-scroll");
     });
 });
